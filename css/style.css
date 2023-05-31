@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0.5;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url(/workspaces/Milestone1FolkRock/css/images/pixabay-man-beard-guitar.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
