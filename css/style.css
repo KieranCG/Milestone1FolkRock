@@ -7,6 +7,12 @@ html {
     width: 100%;
 }
 
+/* Buttons */
+
+.btn {}
+
+/* Callout */
+
 .bg-body-tertiary {
     --bs-bg-opacity: 0.5;
 }
@@ -24,3 +30,15 @@ html {
     justify-content: center;
     color: white;
 }
+
+.div .callout-container {
+    --bs-bg-opacity: 0.5;
+}
+
+/* Bio */
+
+.bio-container {}
+
+/* Features */
+
+.features-container {}
