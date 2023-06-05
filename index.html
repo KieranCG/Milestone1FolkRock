@@ -12,12 +12,31 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
     <title>Green Fields - Folk Music for Your Heart</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </head>
 
 <body>
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <div id="nav-guitar">
+            <div>
                 <i class=" fa-solid fa-guitar"></i>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,8 +58,11 @@
                         <a class="nav-link" href="#features">Features</a>
                     </li>
                     <li>
-                        <form class="d-flex" role="search">
-                            <button class="btn btn-outline-success" type="button">Contact Us!</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Contact Us!
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -50,7 +72,7 @@
         <!-- Callout-->
         <div class="container-fluid callout-container">
             <div class="col">
-                <div class="container callout p-5 mb-4 bg-body-tertiary rounded-3 row">
+                <div class="container callout p-5 mb-4 rounded-3 row transparent">
                     <div class="container-fluid py-5">
                         <h1 class="text-uppercase display-5 fw-bold">Green Fields</h1>
                         <p class="col-md-8 fs-4">High energy live music for weddings & corporate events.</p>
@@ -82,10 +104,10 @@
                                     <div class="accordion-body">
                                         <div class="list-group">
                                             <a href="#"
-                                                class="list-group-item list-group-item-action list-group-item-primary">July
+                                                class="list-group-item list-group-item-action list-group-item-success">July
                                                 15th Hockwold Hall</a>
                                             <a href="#"
-                                                class="list-group-item list-group-item-action list-group-item-secondary">August
+                                                class="list-group-item list-group-item-action list-group-item-success">August
                                                 2nd Clevedon Hall</a>
                                             <a href="#"
                                                 class="list-group-item list-group-item-action list-group-item-success">September
@@ -106,10 +128,10 @@
                                         <div class="accordion-body">
                                             <div class="list-group">
                                                 <a href="#"
-                                                    class="list-group-item list-group-item-action list-group-item-primary">October
+                                                    class="list-group-item list-group-item-action list-group-item-success">October
                                                     1st The Old Hall</a>
                                                 <a href="#"
-                                                    class="list-group-item list-group-item-action list-group-item-secondary">November
+                                                    class="list-group-item list-group-item-action list-group-item-success">November
                                                     3rd The Old Hall</a>
                                                 <a href="#"
                                                     class="list-group-item list-group-item-action list-group-item-success">December
@@ -131,10 +153,10 @@
                                         <div class="accordion-body">
                                             <div class="list-group">
                                                 <a href="#"
-                                                    class="list-group-item list-group-item-action list-group-item-primary">January
+                                                    class="list-group-item list-group-item-action list-group-item-success">January
                                                     15th St.George's Hall</a>
                                                 <a href="#"
-                                                    class="list-group-item list-group-item-action list-group-item-secondary">February
+                                                    class="list-group-item list-group-item-action list-group-item-success">February
                                                     11th The Mansion</a>
                                                 <a href="#"
                                                     class="list-group-item list-group-item-action list-group-item-success">March
@@ -182,13 +204,13 @@
                     <div class="col-12 my-5">
                         <h2 class="text-uppercase">Features</h2>
                     </div>
-                    <div class="col-lg-6 feature-image">
+                    <div class="col-lg-6 feature-image feature-segment">
                         <picture>
                             <img src="css/images/TheLowAnthemLive.jpg"
                                 alt="Black and white image of band singing together." class="img-fluid">
                         </picture>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 feature-segment">
                         <h3>History</h3>
                         <p>The Green Fields are an Irish folk rock band from Dublin. The band was formed in 2010 by four
                             friends
@@ -210,25 +232,25 @@
                             music, including The Dubliners, The Chieftains, and Altan.</p>
                         <button type="button" class="btn btn-secondary">Secondary</button>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 feature-segment">
                         <h3>Weddings & Live Events</h3>
                         <p>Greenfields have played at been a crucial part of many weddings and live events. We come
                             highly recommended by venues such as Hockwold Hall, Glastonbury and the O2.</p>
                         <button type="button" class="btn btn-secondary">Secondary</button>
                     </div>
-                    <div class="col-lg-6 feature-image">
+                    <div class="col-lg-6 feature-image feature-segment">
                         <picture>
                             <img src="css/images/audience-members-hold-up-mobile-phones-filming-a-concert.jpg"
                                 alt="Black and white image of audience holding hands ups at a gig." class="img-fluid">
                         </picture>
                     </div>
-                    <div class="col-lg-6 feature-image">
+                    <div class="col-lg-6 feature-image feature-segment">
                         <picture>
                             <img src="css/images/hands-up-at-concert.jpg"
                                 alt="Black and white image of audience holding hands ups at a gig." class="img-fluid">
                         </picture>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 feature-segment">
                         <h3>Catch Us on Tour!</h3>
                         <p>Watch our talented musicians perform live near you (for free!). At our showcases, you can
                             experience our rehearsal and
@@ -245,7 +267,7 @@
     </article>
     <!--Footer-->
         <footer class="footer">
-            <div class="container">
+            <div class="container footer-container">
                 <div class="row">
                     <div class="col-md-6">
                         <h4>Contact Us</h4>
@@ -259,26 +281,18 @@
                     </div>
                     <div class="col-md-12">
                         <h4>Follow Us</h4>
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item"><a href="https://www.facebook.com/ target=" _blank"><i
-                                        class="fa-brands fa-facebook"></i></a>
-                            </li>
-                            <li class="list-group-item"><a href="https://www.twitter.com" target="_blank"><i
-                                        class="fa-brands fa-twitter"></i></a>
-                            </li>
-                            <li class="list-group-item"><a href="https://www.instagram.com" target="_blank"><i
-                                        class="fa-brands fa-instagram"></i>
-                            </li>
-                            <li class="list-group-item"><a href="https://www.youtube.com/" target="_blank"><i
-                                        class="fa-brands fa-youtube"></i></i>
-                            </li>
-                            <li class="list-group-item"><a href="https://open.spotify.com/" target="_blank"><i
-                                        class="fa-brands fa-spotify"></i></i>
-                            </li>
-                            <li class="list-group-item"><a href="https://www.tiktok.com" target="_blank"><i
-                                        class="fa-brands fa-tiktok"></i></i>
-                            </li>
-                        </ul>
+                        <p>
+                            <a href="https://www.facebook.com/" target=" _blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i
+                                    class="fa-brands fa-youtube"></i></i></a>
+                            <a href="https://open.spotify.com/" target="_blank"><i
+                                    class="fa-brands fa-spotify"></i></i></a>
+                            <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></i></a>
+                        <p>
                     </div>
                 </div>
             </div>

@@ -9,18 +9,14 @@ html {
 
 /* Navbar */
 
-#nav-guitar {
-    font-size: 10px;
-}
-
 /* Buttons */
 
 .btn {}
 
 /* Callout */
 
-.bg-body-tertiary {
-    --bs-bg-opacity: 0.5;
+.callout-container .transparent {
+    background-color: rgba(800, 800, 800, 0.5);
 }
 
 .callout-container {
@@ -30,16 +26,13 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
 }
 
-.div .callout-container {
-    --bs-bg-opacity: 0.5;
-}
+
 
 /* Bio */
 
@@ -51,16 +44,30 @@ html {
 
 .features-container {
     text-align: center;
+    margin-bottom: 5em;
+}
+
+.features-container .feature-segment {
+    margin-bottom: 3rem;
 }
 
 /* Events */
 
 .events-container {
     text-align: center;
+    margin-bottom: 5em;
+}
+
+.accordian {
+    --bs-accordion-active-bg: #689d7c;
 }
 
 /* Footer */
 
-.footer {
+.footer-container {
+    text-align: center;
+}
+
+.footer-container .list-group {
     text-align: center;
 }
