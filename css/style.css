@@ -1,5 +1,6 @@
 body {
     font-family: 'EB Garamond', serif;
+    background-color: #E6EBE8;
 }
 
 html {
@@ -8,6 +9,10 @@ html {
 }
 
 /* Navbar */
+
+.nav.navbar.sticky-top.navbar-expand-lg.bg-body-tertiary {
+    background-color: red;
+}
 
 /* Buttons */
 
@@ -32,12 +37,14 @@ html {
     color: white;
 }
 
-
-
 /* Bio */
 
 .bio-container {
     text-align: center;
+}
+
+.bio-container .heading {
+    color: #6E8F7A;
 }
 
 /* Features */
@@ -47,19 +54,36 @@ html {
     margin-bottom: 5em;
 }
 
+.features-container .heading {
+    color: #6E8F7A;
+}
+
 .features-container .feature-segment {
     margin-bottom: 3rem;
 }
 
 /* Events */
 
-.events-container {
-    text-align: center;
-    margin-bottom: 5em;
+a.list-group-item.list-group-item-action {
+    background-color: #E6EBE8;
 }
 
-.accordian {
-    --bs-accordion-active-bg: #689d7c;
+ul.list-group.list-group-item {
+    border-color: #808580;
+}
+
+.events-container .accordion-header .accordion-button {
+    background-color: #808580;
+}
+
+.events-container .accordion-body {
+    background-color: #808580;
+}
+
+.events-container {
+    color: #6E8F7A;
+    text-align: center;
+    margin-bottom: 5em;
 }
 
 /* Footer */
@@ -70,4 +94,12 @@ html {
 
 .footer-container .list-group {
     text-align: center;
+}
+
+footer .social a .fa-brands {
+    color: #26272B;
+}
+
+footer .social a:hover .fa-brands {
+    color: #808580;
 }
