@@ -10,15 +10,29 @@ html {
 
 /* Navbar */
 
-.nav.navbar.sticky-top.navbar-expand-lg.bg-body-tertiary {
-    background-color: red;
-}
-
 /* Buttons */
 
-.btn {}
+.btn-contact {
+    background-color: #808580;
+}
+
+.btn-contact:hover {
+    background-color: #26272B;
+}
+
+.btn-callout {
+    background-color: #808580;
+}
+
+.btn-callout:hover {
+    background-color: #26272B;
+}
 
 /* Callout */
+
+.callout-container h1 {
+    font-size: 60px;
+}
 
 .callout-container .transparent {
     background-color: rgba(800, 800, 800, 0.5);
