@@ -13,7 +13,7 @@
     <title>Green Fields - Folk Music for Your Heart</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
-    <body>
+<body>
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <div>
@@ -49,40 +49,59 @@
         </div>
     </nav>
 
+    <!--Form-->
+    <div class="container form-container">
+        <div class="row">
+            <div class="col-9">
+                <form action="/contact" method="post">
+                    <input type="text" name="name" placeholder="Your name">
+                    <input type="email" name="email" placeholder="Your email">
+                    <input type="text" name="phone" placeholder="Your phone number">
+                    <textarea name="message" placeholder="Your message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="col-3">
+                <picture>
+                            <img src="css/images/audience-members-hold-up-mobile-phones-filming-a-concert.jpg"
+                                alt="Black and white image of audience holding hands ups at a gig." class="img-fluid">
+                        </picture>
+            </div>
+        </div>
+    </div>
+
+    <!--/.Form-->
+
     <!--Footer-->
-        <footer class="footer">
-            <div class="container footer-container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4>Contact Us</h4>
-                        <p>123 Main Street, Anytown, CA 12345</p>
-                        <p>(123) 456-7890</p>
-                        <p>info@example.com</p>
-                    </div>
-                    <div class="col-md-6">
-                        <h4>Copyright</h2>
-                            <p>Copyright © 2023 Example Company. All rights reserved.</p>
-                    </div>
-                    <div class="col-md-12 social">
-                        <h4>Follow Us</h4>
-                        <p>
-                            <a href="https://www.facebook.com/" target=" _blank"><i
-                                    class="fa-brands fa-facebook"></i></a>
-                            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="https://www.instagram.com" target="_blank"><i
-                                    class="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/" target="_blank"><i
-                                    class="fa-brands fa-youtube"></i></i></a>
-                            <a href="https://open.spotify.com/" target="_blank"><i
-                                    class="fa-brands fa-spotify"></i></i></a>
-                            <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></i></a>
-                        <p>
-                    </div>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Contact Us</h4>
+                    <p>123 Main Street, Anytown, CA 12345</p>
+                    <p>(123) 456-7890</p>
+                    <p>info@example.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Copyright</h2>
+                        <p>Copyright © 2023 Example Company. All rights reserved.</p>
+                </div>
+                <div class="col-md-12 social">
+                    <h4>Follow Us</h4>
+                    <p>
+                        <a href="https://www.facebook.com/" target=" _blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></i></a>
+                        <a href="https://open.spotify.com/" target="_blank"><i class="fa-brands fa-spotify"></i></i></a>
+                        <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></i></a>
+                    <p>
                 </div>
             </div>
-        </footer>
-        <!--/.Footer-->
-    </body>
+        </div>
+    </footer>
+    <!--/.Footer-->
+</body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
