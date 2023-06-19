@@ -13,6 +13,10 @@ h1.modal-title.fs-5 {
     font-weight: bold;
 }
 
+input[type=email] {
+    width: 100%;
+}
+
 /* Navbar */
 
 .navbar.navbar-container {
@@ -29,6 +33,12 @@ h1.modal-title.fs-5 {
 }
 
 /* Buttons */
+
+button.btn-contact#contact {
+    background-color: #A08E76;
+    border-color: #776E64;
+    text-decoration: underline;
+}
 
 .btn-contact,
 .btn-callout {
