@@ -8,11 +8,24 @@ html {
     width: 100%;
 }
 
+/* Modal */
+h1.modal-title.fs-5 {
+    font-weight: bold;
+}
+
 /* Navbar */
 
 .navbar.navbar-container {
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+.guitar-link i {
+    color: #A08E76;
+}
+
+.guitar-link i:hover {
+    color: #26272B;
 }
 
 /* Buttons */
@@ -117,8 +130,6 @@ ul.list-group.list-group-item {
     margin-bottom: 5em;
 }
 
-
-
 /* Footer */
 
 .footer-container {
@@ -139,10 +150,30 @@ footer .social a:hover .fa-brands {
 
 /* Contact Form */
 
-.form-container {}
+.form-container {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.form-block {
+    margin-bottom: 50px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 100%;
+}
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #A08E76;
+    border-color: #776E64;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -151,7 +182,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #26272B;
 }
 
 .form-container {

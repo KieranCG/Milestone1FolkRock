@@ -14,30 +14,41 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="signupModalLabel">Get the hype here!</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <form action="/signup" method="post">
+                                    <label for="email">Email address</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email address"
+                                        required>
+                                    <input type="submit" class="btn btn-primary" value="Sign Up">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+
 </head>
 
 <body>
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary navbar-container">
         <div class="container-fluid">
-            <div>
-                <i class=" fa-solid fa-guitar"></i>
+            <div class="guitar-link">
+                <a href="#">
+                    <i class="fa-solid fa-guitar"></i>
+                </a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,9 +69,8 @@
                         <a class="nav-link" href="#features">Features</a>
                     </li>
                     <li>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary btn-contact" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                        <button type="button" class="btn btn-primary btn-contact"
+                            onclick="window.location.href='/contact.html'">
                             Contact Us!
                         </button>
                     </li>
@@ -74,9 +84,11 @@
             <div class="col">
                 <div class="container callout p-5 mb-4 rounded-3 row transparent">
                     <div class="container-fluid py-5">
-                        <h1 class="text-uppercase display-5 fw-bold">Green Fields</h1>
-                        <p class="col-md-8 fs-4">High energy live music for weddings & corporate events.</p>
-                        <button class="btn btn-primary btn-lg btn-callout" type="button">Sign Up!</button>
+                        <h1 class="heading text-uppercase display-5 fw-bold">Green Fields</h1>
+                        <p class="lead col-md-8 fs-4">High energy live music for weddings & corporate events.</p>
+                        <!-- Button trigger modal -->
+                        <button class="btn btn-primary btn-lg btn-callout" type="button" data-bs-toggle="modal"
+                            data-bs-target="#signupModal">Sign Up!</button>
                     </div>
                 </div>
             </div>
@@ -224,13 +236,19 @@
                             biggest
                             names in Irish folk
                             music, including The Dubliners, The Chieftains, and Altan.</p>
-                        <button type="button" class="btn btn-secondary">Secondary</button>
+                        <button type="button" class="btn btn-primary btn-contact"
+                            onclick="window.location.href='/contact.html'">
+                            Contact Us!
+                        </button>
                     </div>
                     <div class="col-lg-6 feature-segment">
                         <h3>Weddings & Live Events</h3>
                         <p>Greenfields have played at been a crucial part of many weddings and live events. We come
                             highly recommended by venues such as Hockwold Hall, Glastonbury and the O2.</p>
-                        <button type="button" class="btn btn-secondary">Secondary</button>
+                        <button type="button" class="btn btn-primary btn-contact"
+                            onclick="window.location.href='/contact.html'">
+                            Contact Us!
+                        </button>
                     </div>
                     <div class="col-lg-6 feature-image feature-segment">
                         <picture>
@@ -251,7 +269,10 @@
                             preview a variety of musical styles and band sizes to help you find the perfect fit for your
                             event. Make it a date night
                             or invite friends for a fun evening out!</p>
-                        <button type="button" class="btn btn-secondary">Secondary</button>
+                        <button type="button" class="btn btn-primary btn-contact"
+                            onclick="window.location.href='/contact.html'">
+                            Contact Us!
+                        </button>
                     </div>
                 </div>
             </section>

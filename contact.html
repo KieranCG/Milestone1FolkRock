@@ -14,10 +14,12 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary navbar-container">
         <div class="container-fluid">
-            <div>
-                <i class=" fa-solid fa-guitar"></i>
+            <div class="guitar-link">
+                <a href="index.html">
+                    <i class="fa-solid fa-guitar"></i>
+                </a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,21 +28,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#top">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#events">Events</a>
+                        <a class="nav-link" href="index.html">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#bio">Bio</a>
+                        <a class="nav-link" href="index.html">Bio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
+                        <a class="nav-link" href="index.html">Features</a>
                     </li>
                     <li>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary btn-contact" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                        <button type="button" class="btn btn-primary btn-contact active" href="/contact.html"
+                            target="_blank">
                             Contact Us!
                         </button>
                     </li>
@@ -52,21 +53,33 @@
     <!--Form-->
     <div class="container form-container">
         <div class="row">
-            <div class="col-6">
-                <form action="/contact" method="post">
-                    <input type="text" name="FirstName" placeholder="First name">
-                    <input type="text" name="LastName" placeholder="Last name">
-                    <input type="email" name="email" placeholder="Your email">
-                    <input type="text" name="phone" placeholder="Your phone number">
-                    <textarea name="message" placeholder="Your message"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
+            <div class="col-md-6 form-block">
+                <div class="row">
+                    <form action="/contact" method="post">
+                        <div class="col-12">
+                            <input type="text" name="FirstName" placeholder="First name" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="text" name="LastName" placeholder="Last name" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="email" name="email" placeholder="Your email" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="text" name="phone" placeholder="Your phone number" required>
+                        </div>
+                        <div class="col-12">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 form-image-block">
                 <picture>
-                            <img src="css/images/audience-members-hold-up-mobile-phones-filming-a-concert.jpg"
-                                alt="Black and white image of audience holding hands ups at a gig." class="img-fluid">
-                        </picture>
+                    <img src="css/images/audience-members-hold-up-mobile-phones-filming-a-concert.jpg"
+                        alt="Black and white image of audience holding hands ups at a gig." class="img-fluid">
+                </picture>
             </div>
         </div>
     </div>
