@@ -34,14 +34,14 @@
                         <a class="nav-link" href="index.html">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Bio</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Bio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Features</a>
                     </li>
                     <li>
-                        <button type="button" class="btn btn-primary btn-contact active" id="contact"
-                            href="/contact.html" aria-current="page" target="_blank">
+                        <button type="button" class="btn btn-primary btn-contact"
+                            onclick="window.location.href='/contact.html'">
                             Contact Us!
                         </button>
                     </li>
@@ -50,24 +50,69 @@
         </div>
     </nav>
 
-    <!--Form-->
-    <div class="container form-container">
-        <div class="row">
-            <div class="col-md-6 form-block">
-                <div class="row">
-                    
+    <div class="container features-container">
+        <section class="features" id="features">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase heading">Biography</h2>
+                </div>
+                <div class="col-lg-6 feature-image feature-segment">
+                    <picture>
+                        <img src="css/images/adam.jpg" alt="Man with hat and violin singing into microphone."
+                            class="img-fluid">
+                    </picture>
+                </div>
+                <div class="col-lg-6 feature-segment">
+                    <h3>Adam</h3>
+                    <p>Adam is the lead singer and songwriter of Green Fields. He is a gifted vocalist with a powerful
+                        and expressive range. He
+                        is also a talented songwriter, and his lyrics are often both personal and universal.</p>
+                </div>
+                <div class="col-lg-6 feature-segment">
+                    <h3>Daniel</h3>
+                    <p>Daniel is the bassist of Green Fields. He is a solid foundation for the band, and he provides a
+                        deep, rich sound. He is
+                        also a talented vocalist, and he often sings harmony vocals on the band's songs.</p>
+                </div>
+                <div class="col-lg-6 feature-image feature-segment">
+                    <picture>
+                        <img src="css/images/daniel.jpg"
+                            alt="Black and white image of audience multiple crowd members filming the gig on phones."
+                            class="img-fluid">
+                    </picture>
+                </div>
+                <div class="col-lg-6 feature-image feature-segment">
+                    <picture>
+                        <img src="css/images/gloria.jpg"
+                            alt="Black and white image of audience holding hands ups at a gig." class="img-fluid">
+                    </picture>
+                </div>
+                <div class="col-lg-6 feature-segment">
+                    <h3>Gloria</h3>
+                    <p>Gloria is the drummer of Green Fields but also transitions to the cello. She is a powerhouse
+                        behind the kit, and she provides the
+                        band with a driving
+                        beat. She is also a dynamic performer, and she often adds her own personal flair to the band's
+                        live shows.</p>
+                </div>
+                <div class="col-lg-6 feature-segment">
+                    <h3>Peter</h3>
+                    <p>Peter is the guitarist of Green Fields. He is a skilled musician with a keen ear for melody. He
+                        is also a creative
+                        improviser, and he often adds unexpected twists and turns to the band's songs.</p>
+                </div>
+                <div class="col-lg-6 feature-image feature-segment">
+                    <picture>
+                        <img src="css/images/peter.jpg"
+                            alt="Black and white image of audience multiple crowd members filming the gig on phones."
+                            class="img-fluid">
+                    </picture>
                 </div>
             </div>
-            <div class="col-md-6 form-image-block">
-                <picture>
-                    <img src="css/images/audience-members-hold-up-mobile-phones-filming-a-concert.jpg"
-                        alt="Black and white image of audience holding hands ups at a gig." class="img-fluid">
-                </picture>
-            </div>
-        </div>
+        </section>
     </div>
-
-    <!--/.Form-->
+    <!--/.Features-->
+    <hr>
 
     <!--Footer-->
     <footer class="footer">
