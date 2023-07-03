@@ -1,3 +1,5 @@
+![Banner]()
+
 # Milestone Project 1 Green Fields
 
 ## Fully functioning static HTML/CSS/Bootstrap website.
@@ -24,7 +26,7 @@ To use this website, you can simply visit the GitHub Pages website and enter the
 
 ## Screenshots
 
-![App Screenshot](../Milestone1FolkRock/css/images/Website%20Image.png)
+![App Screenshot](css/images/Website%20Image.png)
 
 ## Color Reference
 
@@ -36,11 +38,11 @@ To use this website, you can simply visit the GitHub Pages website and enter the
 | Contrast Color   | ![#56302D](https://via.placeholder.com/10/56302D?text=+) #56302D |
 | Darkest Color    | ![#20150E](https://via.placeholder.com/10/20150E?text=+) #20150E |
 
-## Acknowledgements
+## Credits
 
 - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
 - [Awesome README](https://github.com/matiassingers/awesome-readme)
 - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- W3Schools (https://www.w3schools.com/)
-- Bootstrap (https://getbootstrap.com/)
-- readme.so (https://readme.so/editor)
+- [W3Schools] (https://www.w3schools.com/)
+- [Bootstrap] (https://getbootstrap.com/)
+- [readme.so] (https://readme.so/editor)
