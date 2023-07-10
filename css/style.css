@@ -10,6 +10,22 @@ html {
 }
 
 /* Modal */
+
+#signupModal>div>div>div.modal-body>div>div>div>div>form {
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+#signupModal>div>div>div.modal-body>div>div>div>div>form>input.btn.btn-primary {
+    padding: 16px 32px;
+    margin-top: 4px;
+}
+
+.modal-flex-input {
+    display: flex;
+    justify-content: center;
+}
+
 h1.modal-title.fs-5 {
     font-weight: bold;
 }
@@ -21,15 +37,15 @@ input[type=email] {
 /* Navbar */
 
 .navbar>.container-fluid {
-    display: flex;
     justify-content: flex-start;
 }
 
 #navbar-button-div {
-    margin-left: auto
+    margin-left: auto;
 }
 
 .navbar.navbar-container {
+    font-size: x-large;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -45,6 +61,7 @@ input[type=email] {
 /* Buttons */
 
 #navbarNav>ul>li:nth-child(4) {
+    margin-right: auto;
     align-self: center;
 }
 
@@ -176,6 +193,23 @@ footer .social a:hover .fa-brands {
 }
 
 /* Contact Form */
+
+body>div>div>div.col-md-6.form-block>div>form>div:nth-child(1) {
+    padding-bottom: 10px;
+}
+
+body>div>div>div.col-md-6.form-block>div>form>div:nth-child(2) {
+    padding-bottom: 10px;
+}
+
+body>div>div>div.col-md-6.form-block>div>form>div:nth-child(3) {
+    padding-bottom: 10px;
+}
+
+.faded-text {
+    color: black;
+    opacity: 0.5;
+}
 
 .form-container {
     margin-bottom: 60px;
