@@ -20,6 +20,15 @@ input[type=email] {
 
 /* Navbar */
 
+.navbar>.container-fluid {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#navbar-button-div {
+    margin-left: auto
+}
+
 .navbar.navbar-container {
     font-weight: bold;
     letter-spacing: 1px;
@@ -34,6 +43,10 @@ input[type=email] {
 }
 
 /* Buttons */
+
+#navbarNav>ul>li:nth-child(4) {
+    align-self: center;
+}
 
 button.btn-contact#contact {
     background-color: #A08E76;
@@ -141,6 +154,10 @@ ul.list-group.list-group-item {
 }
 
 /* Footer */
+
+.footer-container a {
+    letter-spacing: 30px;
+}
 
 .footer-container {
     text-align: center;

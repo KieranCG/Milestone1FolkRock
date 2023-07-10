@@ -25,15 +25,17 @@
                     <i class="fa-solid fa-guitar"></i>
                 </a>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="navbar-greenfields">
+                <a class="nav-link active" href="index.html">Green Fields</a>
+            </div>
+            <div class="navbar-button" id="navbar-button-div">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Green Fields</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Events</a>
                     </li>
@@ -44,8 +46,8 @@
                         <a class="nav-link" href="index.html">Features</a>
                     </li>
                     <li>
-                        <button type="button" class="btn btn-primary btn-contact active" id="contact"
-                            href="/contact.html" aria-current="page" target="_blank">
+                        <button type="button" aria-current="page" class="btn btn-primary btn-contact" id="contact"
+                            onclick="window.location.href='/contact.html'">
                             Contact Us
                         </button>
                     </li>
