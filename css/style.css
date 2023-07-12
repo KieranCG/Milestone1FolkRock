@@ -9,6 +9,11 @@ html {
     width: 100%;
 }
 
+img {
+  width: 100%; /* or max-width: 100%; */
+  height: auto;
+}
+
 /* Modal */
 
 #signupModal>div>div>div.modal-body>div>div>div>div>form {
