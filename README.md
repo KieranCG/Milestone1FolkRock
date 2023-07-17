@@ -26,7 +26,7 @@ To use this website, you can simply visit the GitHub Pages website and enter the
 
 ## Screenshots
 
-![App Screenshot](/workspaces/Milestone1FolkRock/css/images/Website screenshot.png)
+![App Screenshot](css/images/Website screenshot.png)
 
 ## Color Reference
 
