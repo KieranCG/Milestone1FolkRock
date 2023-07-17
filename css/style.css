@@ -17,6 +17,11 @@ img {
 
 /* Modal */
 
+#signupModal>div>div>div.modal-body>div>div>div>div>form>label {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
 #signupModal>div>div>div.modal-body>div>div>div>div>form {
     padding: 12px 20px;
     margin: 8px 0;
@@ -24,7 +29,8 @@ img {
 
 #signupModal>div>div>div.modal-body>div>div>div>div>form>input.btn.btn-primary {
     padding: 16px 32px;
-    margin-top: 4px;
+    margin-top: 5px;
+    width: 100%;
 }
 
 .modal-flex-input {
@@ -246,6 +252,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 100%;
 }
 
 input[type=submit]:hover {
