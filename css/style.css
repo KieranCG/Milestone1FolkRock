@@ -10,8 +10,9 @@ html {
 }
 
 img {
-  width: 100%; /* or max-width: 100%; */
-  height: auto;
+    width: 100%;
+    /* or max-width: 100%; */
+    height: auto;
 }
 
 /* Modal */
@@ -108,7 +109,7 @@ button.btn-contact#contact {
 
 .callout-container {
     height: 100vh;
-    background: url(../css/images/pixabay-man-beard-guitar.jpg) no-repeat center center fixed;
+    background: url(../css/images/pixabay-man-beard-guitar.WebP) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
