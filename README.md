@@ -12,7 +12,7 @@ Green Fields is a website designed to showcase the fictional band Green Fields. 
 
 The overal visual design is clean and slightly rustic to keep in touch with the style of the fictional band and will inspire users to use Green Fields for their wedding or see them live.
 
-To view the deployed website click "here" -fix link
+To view the deployed website click [here](https://kierancg.github.io/Milestone1FolkRock/).
 
 ![Landing page](assets/images/readme-images/main-page-image.png "Green Fields Landing Page")
 
@@ -50,9 +50,11 @@ Three sections:
 
 - Features: Short Bio with a link to the main "Meet the Team" link. Main section includes in keeping images with simple text blocks calling out the important information like history and functions of the band.
 - Meet the Team: Cleanly laid out page with band member bios and images, also featuring an autoplay video with controls.
+
 * Contact Form: User friendly contact form with another image to keep the engagement going with the user.
 
 ### 4. Skeleton
+
 Using Balsamiq I created the wireframe for my site:
 
 ![Landing](assets/images/wireframe/green-fields-landing-wireframe.png "Landing page wireframe")
@@ -64,6 +66,7 @@ Using Balsamiq I created the wireframe for my site:
 ![Contact](assets/images/wireframe/contact-wireframe.png "Contact page wireframe")
 
 ### 5. Surface
+
 I will use google fonts and choose one font that evokes a folk feeling, so that the title is capitvating and the text is easy to read. For the colour scheme researched a few other folk bands, picked a few colours and used [Colourmind](http://colormind.io/) to generate a palette. Being red/green colourblind it was very useful to offer me colours that work well together.
 
 ### Color Reference
@@ -79,11 +82,13 @@ I will use google fonts and choose one font that evokes a folk feeling, so that 
 ## Page Features:
 
 ### Header and Nav
+
 The Navbar is clean and simple. It features a font awesome icon to tie in with the Green Fields name, Both responsive and both take you either to the top of the page if on the main or back to the landing page. The Contact page link is a button, this is to make it plain and easy to understand for the user. If viewing on smaller screen the links, with the exception of 'Green Fields' and the font awesome icon, collapses to a drop down button. This was chosen to keep the user experience easy on a mobile device.
 
 ![Navbar](assets/images/readme-images/navbar-image.png "Navbar image")
 
 ### Main image
+
 I kept the main image greyscale and continued this style throughout the website, changing images to match, to stop overwhelm add a sense of style also it keeps the interactive buttons highlighted. It has a callout overlay with a modal 'Sign Up' button.
 
 ![Callout](assets/images/readme-images/callout-image.png "Callout image")
@@ -93,6 +98,7 @@ After clicking the 'Sign up' button the user is taken to a modal overlay to prom
 ![Modal](assets/images/readme-images/modal-overlay-image.png "Modal image")
 
 ### Upcoming Events and Features section
+
 The Upcoming events section uses an Accordion element. This was chosen as it allows the information to be viewed easily if the user is interested in it but keeps the majority hidden and the experience as simple as possible if not.
 
 ![Accordion](assets/images/readme-images/accordion-image.png "Accordion image")
@@ -102,6 +108,7 @@ The features section has an adjacent image with a body of text, this breaks up a
 ![Features](assets/images/readme-images/features-image.png "Features image")
 
 ### Meet the Team
+
 Meet the Team uses the same responsive column and row layout as the rest of the website to keep the experience homogenous. At the bottom is a video that fills the width of the screen, it has the autoplay function but is muted to prevent poor user experience and has controls.
 
 ![Meet the team](assets/images/readme-images/meet-the-team-image.png "Meet the Team image")
@@ -111,30 +118,37 @@ It also contains a large video element, this breaks from the rest of the website
 ![video](assets/images/readme-images/video-image.png "Video image")
 
 ### Contact page
+
 The contact page retains the same responsive box layout but instead of a text box has a simply styled form element with required input and an input element for whatever enquiry the user may wish to ask the band.
 
 ![Contact](assets/images/readme-images/contact-page.png "Contact page image")
 
 ### Footer
+
 The footer is laid out in a simple, pleasing and responsive column row format. The social media links also respond to being interacted with and navigate to the associated website in a new browser page to prevent poor UEX. I chose to use font awesome icons to represent them as these are the standard across the industry by keeping the links easy to understand and react to.
 
 ![Footer](assets/images/readme-images/footer-image.png "Footer element image")
 
-##  Future features
+## Future features
+
 As the site usage increases and the fictional band adds some strings to its bow I would add a spotify element with a highlight track. Also a merch page and finally I'd fill out the contact page with specific roles the band could in theory be called upon to function in.
 
 ## Testing
+
 ### HTML Validator
+
 The website passed the W3 HTML validator after picking up 1 unclosed /div element.
 
 ### CSS Validator
+
 Happily the CSS validator passed first time.
 ![W3 CSS](assets/images/readme-images/w3-valid-css-image.png "W3 Valid CSS")
 
 ### Lighthouse
+
 Lighthouse suggested changing the images from png files to WebP files to aid loading times and compression for speed/functionality.
 
-link -fix
+![Lighthouse](assets/images/readme-images/lighthouse.png "Lighthouse Results")
 
 ### Personal Testing
 
@@ -160,7 +174,9 @@ The site was created on Codeanywhere then deployed to GitHub pages. To deploy th
 CLick [here](https://github.com/KieranCG/Milestone1FolkRock) to view my Github repository.
 
 ## Credits
+
 ### Images
+
 Images were taken from [Unsplash](https://unsplash.com/).
 
 Icons were taken from [Font Awesome](https://fontawesome.com/).
@@ -170,12 +186,12 @@ Favicon created and generated using [Favicon](https://favicon.io/).
 The video was taken from [Mixkit](https://mixkit.co/).
 
 ### Code
+
 I adapted the code for the callout, modal and navbar section from [Bootstrap](https://getbootstrap.com/).
 
 Fonts were chosen on [GoogleFonts](https://fonts.google.com/)
 
 Colours were researched and chosen from [Colourmind](http://colormind.io/bootstrap/)
-
 
 ## Acknowledgements
 
