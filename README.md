@@ -146,7 +146,7 @@ Happily the CSS validator passed first time.
 
 ### Lighthouse
 
-Lighthouse suggested changing the images from png files to WebP files to aid loading times and compression for speed/functionality.
+Lighthouse suggested changing the images from png files to WebP files to aid loading times and compression for speed/functionality which I implemented.
 
 ![Lighthouse](assets/images/readme-images/lighthouse.png "Lighthouse Results")
 
