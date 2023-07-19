@@ -55,10 +55,13 @@ Three sections:
 ### 4. Skeleton
 Using Balsamiq I created the wireframe for my site:
 
-![Landing](../workspaces/Milestone1FolkRock/css/images/Wireframe/Green Fields Wireframe Landing.png "Landing page wireframe")
-![Features](../workspaces/Milestone1FolkRock/css/images/Wireframe/Features Wireframe.png "Features page wireframe")
-![Meet the Team](../workspaces/Milestone1FolkRock/css/images/Wireframe/Meet the Team Wireframe.png "Meet the team wireframe")
-![Contact](../workspaces/Milestone1FolkRock/css/images/Wireframe/Contact Wireframe.png "Contact page wireframe")
+![Landing](css/images/wireframe/green-fields-landing-wireframe.png "Landing page wireframe")
+
+![Features](css/images/wireframe/features-wireframe.png "Features page wireframe")
+
+![Meet the Team](css/images/wireframe/meet-the-team-wireframe.png "Meet the team wireframe")
+
+![Contact](css/images/wireframe/contact-wireframe.png "Contact page wireframe")
 
 ### 5. Surface
 I will use google fonts and choose one font that evokes a folk feeling, so that the title is capitvating and the text is easy to read. For the colour scheme researched a few other folk bands, picked a few colours and used [Colourmind](http://colormind.io/) to generate a palette. Being red/green colourblind it was very useful to offer me colours that work well together.
@@ -118,7 +121,7 @@ The website passed the W3 HTML validator after picking up 1 unclosed <div> eleme
 
 ### CSS Validator
 Happily the CSS validator passed first time.
-![W3 CSS](/workspaces/Milestone1FolkRock/css/images/README-images/W3 CSS Valid image.png "W3 Valid CSS")
+![W3 CSS](css/README-images/W3 CSS Valid image.png "W3 Valid CSS")
 
 ### Lighthouse
 Lighthouse suggested changing the images from png files to WebP files to aid loading times and compression for speed/functionality.
