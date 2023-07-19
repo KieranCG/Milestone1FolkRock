@@ -9,7 +9,7 @@ Keywords: github, pages, static website, coursework.
 Green Fields is a website designed to showcase the fictional band Green Fields. By giving users the ability to learn about their members, history and get in contact with them regarding utilising them for personal and commercial reasons.
 
 - The landing page allows the user to instantly get a feel for the style/tone of the band and providing immediate call outs for signing up for email or getting in touch with the band.
-- The second 'Meet the Team' section gives a more detailed background of the band and has a video for a small demo of a member of the band playing in front of a church.
+- The second 'Meet the Team' section gives a more detailed background of the band and has a video featuring a member of the band playing in front of a church.
 - The last section includes a form allowing the user to get in touch with the band.
 
 The overal visual design is clean and slightly rustic to keep in touch with the style of the fictional band and will inspire users to use Green Fields for their wedding or see them live.
