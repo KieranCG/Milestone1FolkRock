@@ -1,5 +1,3 @@
-![Banner]() - fix link
-
 # GREEN FIELDS
 
 ## Fully functioning static HTML/CSS/Bootstrap website.
