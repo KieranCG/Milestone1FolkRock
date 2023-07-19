@@ -118,7 +118,7 @@ The website passed the W3 HTML validator after picking up 1 unclosed <div> eleme
 
 ### CSS Validator
 Happily the CSS validator passed first time.
-![W3 CSS](../workspaces/Milestone1FolkRock/css/images/README-images/W3 CSS Valid image.png "W3 Valid CSS")
+![W3 CSS](/workspaces/Milestone1FolkRock/css/images/README-images/W3 CSS Valid image.png "W3 Valid CSS")
 
 ### Lighthouse
 Lighthouse suggested changing the images from png files to WebP files to aid loading times and compression for speed/functionality.
