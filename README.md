@@ -106,7 +106,7 @@ Meet the Team uses the same responsive column and row layout as the rest of the 
 
 ![Meet the team](css/images/readme-images/meet-the-team-image.png "Meet the Team image")
 
-It also contains a large video element.
+It also contains a large video element, this breaks from the rest of the website as it retains it's colour. The idea was to keep the user engaged after they've made it this far and to give them an idea about how the band might look at their wedding.
 
 ![video](css/images/readme-images/video-image.png "Video image")
 
@@ -125,7 +125,7 @@ As the site usage increases and the fictional band adds some strings to its bow 
 
 ## Testing
 ### HTML Validator
-The website passed the W3 HTML validator after picking up 1 unclosed <div> element.
+The website passed the W3 HTML validator after picking up 1 unclosed /div element.
 
 ### CSS Validator
 Happily the CSS validator passed first time.
