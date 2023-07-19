@@ -14,7 +14,7 @@ The overal visual design is clean and slightly rustic to keep in touch with the 
 
 To view the deployed website click "here" -fix link
 
-![Landing page](../workspaces/Milestone1FolkRock/css/images/README-images/Website screenshot.png "Green Fields Landing Page")
+![Landing page](css/images/readme-images/main-page-image.png "Green Fields Landing Page")
 
 # UXD
 
@@ -81,36 +81,44 @@ I will use google fonts and choose one font that evokes a folk feeling, so that 
 ### Header and Nav
 The Navbar is clean and simple. It features a font awesome icon to tie in with the Green Fields name, Both responsive and both take you either to the top of the page if on the main or back to the landing page. The Contact page link is a button, this is to make it plain and easy to understand for the user. If viewing on smaller screen the links, with the exception of 'Green Fields' and the font awesome icon, collapses to a drop down button. This was chosen to keep the user experience easy on a mobile device.
 
-![Navbar](../workspaces/Milestone1FolkRock/css/images/README-images/Navbar image.png "Navbar image")
+![Navbar](css/images/readme-images/navbar-image.png "Navbar image")
 
 ### Main image
 I kept the main image greyscale and continued this style throughout the website, changing images to match, to stop overwhelm add a sense of style also it keeps the interactive buttons highlighted. It has a callout overlay with a modal 'Sign Up' button.
 
-![Callout](../workspaces/Milestone1FolkRock/css/images/README-images/Callout.png "Callout image")
+![Callout](css/images/readme-images/callout-image.png "Callout image")
+
+After clicking the 'Sign up' button the user is taken to a modal overlay to prompt joining the newsletter.
+
+![Modal](css/images/readme-images/modal-overlay-image.png "Modal image")
 
 ### Upcoming Events and Features section
 The Upcoming events section uses an Accordion element. This was chosen as it allows the information to be viewed easily if the user is interested in it but keeps the majority hidden and the experience as simple as possible if not.
 
-![Accordion](../workspaces/Milestone1FolkRock/css/images/README-images/Accordion Image.png "Accordion image")
+![Accordion](css/images/readme-images/accordion-image.png "Accordion image")
 
 The features section has an adjacent image with a body of text, this breaks up any perception of a text heavy experience and keep the user thinking of how they would feel viewing the band themselves. On smaller screens and devices the design responds by moving the text and images one under the other. Each text box has a "Contact Us" button to take them straight to the Contact page if they've been swayed by the website so far.
 
-![Features](../workspaces/Milestone1FolkRock/css/images/README-images/Features image.png "Features image")
+![Features](css/images/readme-images/features-image.png "Features image")
 
 ### Meet the Team
 Meet the Team uses the same responsive column and row layout as the rest of the website to keep the experience homogenous. At the bottom is a video that fills the width of the screen, it has the autoplay function but is muted to prevent poor user experience and has controls. I chose to add a video to add a bit of brightness and life to break up the experience.
 
-![Meet the team](../workspaces/Milestone1FolkRock/css/images/README-images/Meet the Team image.png "Meet the Team image")
+![Meet the team](css/images/readme-images/meet-the-team-image.png "Meet the Team image")
+
+It also contains a large video element.
+
+![video](css/images/readme-images/video-image.png "Video image")
 
 ### Contact page
 The contact page retains the same responsive box layout but instead of a text box has a simply styled form element with required input and an input element for whatever enquiry the user may wish to ask the band.
 
-![Contact](../workspaces/Milestone1FolkRock/css/images/README-images/Contact Page.png "Contact page image")
+![Contact](css/images/readme-images/contact-page.png "Contact page image")
 
 ### Footer
 The footer is laid out in a simple, pleasing and responsive column row format. The social media links also respond to being interacted with and navigate to the associated website in a new browser page to prevent poor UEX. I chose to use font awesome icons to represent them as these are the standard across the industry by keeping the links easy to understand and react to.
 
-![Footer](../workspaces/Milestone1FolkRock/css/images/README-images/Footer image.png "Footer element image")
+![Footer](css/images/readme-images/footer-image.png "Footer element image")
 
 ##  Future features
 As the site usage increases and the fictional band adds some strings to its bow I would add a spotify element with a highlight track. Also a merch page and finally I'd fill out the contact page with specific roles the band could in theory be called upon to function in.
@@ -121,7 +129,7 @@ The website passed the W3 HTML validator after picking up 1 unclosed <div> eleme
 
 ### CSS Validator
 Happily the CSS validator passed first time.
-![W3 CSS](css/README-images/W3 CSS Valid image.png "W3 Valid CSS")
+![W3 CSS](css/images/readme-images/w3-valid-css-image.png "W3 Valid CSS")
 
 ### Lighthouse
 Lighthouse suggested changing the images from png files to WebP files to aid loading times and compression for speed/functionality.
