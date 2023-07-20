@@ -171,7 +171,7 @@ The site was created on Codeanywhere then deployed to GitHub pages. To deploy th
 3. Change the drop down on Branch to 'main' then click save.
 4. Once it has been deployed a link will show at the top with the link to the site.
 
-CLick [here](https://github.com/KieranCG/Milestone1FolkRock) to view my Github repository.
+Click [here](https://github.com/KieranCG/Milestone1FolkRock) to view my Github repository.
 
 ## Credits
 
