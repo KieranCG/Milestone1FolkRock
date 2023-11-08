@@ -150,7 +150,30 @@ Lighthouse suggested changing the images from png files to WebP files to aid loa
 
 ![Lighthouse](assets/images/readme-images/lighthouse.png "Lighthouse Results")
 
-### Personal Testing
+### Manual Testing
+
+| Feature | Action | Expected result | Tested | Passed | Comments |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Navbar | | | | | |
+| BB | Click on the Home link | The user is redirected to the home page | Yes | Yes | - |
+| Home | Click on the Home link | The user is redirected to the home page | Yes | Yes | - |
+| Events | Click on the Events link | The user is redirected to the events section | Yes | Yes | - |
+| Features | Click on the features link | The user is redirected to the features section | Yes | Yes | - |
+| Meet the team | Click on the Meet the team link | The user is redirected to the Meet the team section | Yes | Yes | - |
+| Contact us | Click on the Contact us link | The user is redirected to the Contact us section | Yes | Yes | - |
+| Footer | | | | | |
+| Instagram icon in the footer | Click on the Instagram link | The user is redirected to the Instagram webpage | Yes | Yes | - |
+| Facebook icon in the footer | Click on the Facebook link | The user is redirected to the Facebook webpage | Yes | Yes | - |
+| Spotify icon in the footer | Click on the Spotify link | The user is redirected to the Spotify webpage | Yes | Yes | - |
+| Twitter icon in the footer | Click on the Twitter link | The user is redirected to the Twitter webpage | Yes | Yes | - |
+| Youtube icon in the footer | Click on the Youtube link | The user is redirected to the Youtube webpage | Yes | Yes | - |
+| Tiktok icon in the footer | Click on the Tiktok link | The user is redirected to the Tiktok webpage | Yes | Yes | - |
+| Contact Page | | | | | |
+| Name Input | Enter Name | Name is entered | Yes | Yes | If user doesn't enter name, the error message appears |
+| Email Input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Message input | Enter message | Message is entered | Yes | Yes | If user doesn't enter message, the error message appears. |
+| "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
+| Response page | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |
 
 I have built and tested this site on Google Chrome, I've viewed it on Safari and Microsoft Edge and it works perfectly.
 
