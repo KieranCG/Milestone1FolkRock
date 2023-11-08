@@ -32,9 +32,9 @@ For the site developer:
 - To make it easy for them to navigate the site and provide consistent navigational signage.
 - To have a bold and memorable style that makes the user want to pick our band over others.
 
-## Creation Process
+## Creation Process using the Agile Software Development Method
 
-### 1. Strategy
+### 1. Requirements
 
 It is a B2C website for people looking for a folk rock band either to listen or hire for weddings, the site needs to provide quality information and motivate users to take the next step and subscribe or contact the band.
 
@@ -42,7 +42,7 @@ It is a B2C website for people looking for a folk rock band either to listen or 
 
 It will have a minimalist design, with basic features such as a navigation bar and images. It will include a video which needs to be concise. The colour scheme will be in keeping with a folk theme, the whole design needs to be consistant so this means any media will need to be in alignment.
 
-### 3. Structure
+### 3. Architexture & Design
 
 A landing page with a large image that immediatlely calls out the bands identity. All pages will be associated together with a navbar and footer element.
 
@@ -53,7 +53,7 @@ Three sections:
 
 * Contact Form: User friendly contact form with another image to keep the engagement going with the user.
 
-### 4. Skeleton
+### 4. Construction
 
 Using Balsamiq I created the wireframe for my site:
 
@@ -65,7 +65,7 @@ Using Balsamiq I created the wireframe for my site:
 
 ![Contact](assets/images/wireframe/contact-wireframe.png "Contact page wireframe")
 
-### 5. Surface
+### 5. Development
 
 I will use google fonts and choose one font that evokes a folk feeling, so that the title is capitvating and the text is easy to read. For the colour scheme researched a few other folk bands, picked a few colours and used [Colourmind](http://colormind.io/) to generate a palette. Being red/green colourblind it was very useful to offer me colours that work well together.
 
@@ -79,7 +79,7 @@ I will use google fonts and choose one font that evokes a folk feeling, so that 
 | Contrast Color   | ![#56302D](https://via.placeholder.com/10/56302D?text=+) #56302D |
 | Darkest Color    | ![#20150E](https://via.placeholder.com/10/20150E?text=+) #20150E |
 
-## Page Features:
+## Development:
 
 ### Header and Nav
 
@@ -167,7 +167,7 @@ Lighthouse suggested changing the images from png files to WebP files to aid loa
 | Spotify icon in the footer | Click on the Spotify link | The user is redirected to the Spotify webpage | Yes | Yes | - |
 | Twitter icon in the footer | Click on the Twitter link | The user is redirected to the Twitter webpage | Yes | Yes | - |
 | Youtube icon in the footer | Click on the Youtube link | The user is redirected to the Youtube webpage | Yes | Yes | - |
-| Tiktok icon in the footer | Click on the Tiktok link | The user is redirected to the Tiktok webpage | Yes | Yes | - |
+| Tiktok icon in the footer | Click on the Tiktok link | The user is redirected to the Tiktok webpage | Yes | Yes | User was taken away from the website, missing 'blank' tag. Bug fixed. |
 | Contact Page | | | | | |
 | Name Input | Enter Name | Name is entered | Yes | Yes | If user doesn't enter name, the error message appears |
 | Email Input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
@@ -225,3 +225,5 @@ Colours were researched and chosen from [Colourmind](http://colormind.io/bootstr
 - [Bootstrap](https://getbootstrap.com/)
 - [readme.so](https://readme.so/editor)
 - [mixkit.co](https://mixkit.co)
+
+Final testing is displayed in a seperate word document in the 'docs' folder (folkrockfinaltesting.docx)
