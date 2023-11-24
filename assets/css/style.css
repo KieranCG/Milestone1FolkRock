@@ -292,3 +292,30 @@ input[type=submit]:hover {
     background-color: #d1ecf1;
     border: 1px solid #bee5eb;
 }
+
+/* Success message styling */
+#submissionMessage {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#submissionMessage p {
+    margin: 0;
+}
+
+#submissionMessage.success {
+    background-color: #d4edda;
+    /* Green background for success */
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    /* Dark green text */
+}
+
+#submissionMessage.error {
+    background-color: #f8d7da;
+    /* Red background for error */
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    /* Dark red text */
+}
