@@ -13,15 +13,13 @@ $(document).ready(function () {
             success: function (response) {
                 // Update the content on the page to indicate successful submission with success style
                 $("#formMessage").removeClass().addClass('success').html("<p>Form submitted successfully!</p>");
-
-                // You can also close the modal if you want
                 $('#signupModal').modal('hide');
             },
             error: function (error) {
                 // Update the content on the page to indicate error with error style
                 $("#formMessage").removeClass().addClass('error').html("<p>Error submitting the form. Please try again.</p>");
 
-                // Handle errors if needed
+                // Handle errors
                 console.error('Error:', error);
             }
         });
@@ -44,7 +42,7 @@ $(document).ready(function () {
                 // Update the content on the page to indicate successful submission with success style
                 $("#submissionMessage").removeClass().addClass('success').html("<p>Form submitted successfully!</p>");
 
-                // Clear the form fields if needed
+                // Clear the form fields
                 $("#contactForm")[0].reset();
             },
             error: function (error) {
